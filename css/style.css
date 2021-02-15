@@ -1,13 +1,35 @@
 body {
-    background-image: url(../img/hatter_zoldseg.jpg);
-    background-size: 50%;
-    background-repeat: no-repeat;
+  background: url(../img/hatter_zoldseg.jpg) no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
 }
 
 .table-striped {
-    background-color: rgb(186, 245, 186);
+  background-color: rgb(186, 245, 186);
 }
 
-#idoszak {
-    background-color: lightgrey;
+.idoszak {
+  background-color: lightgrey;
+}
+
+#tablazat {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#etrend {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
