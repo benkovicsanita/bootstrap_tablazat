@@ -1,0 +1,13 @@
+body {
+    background-image: url(../img/hatter_zoldseg.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.table-striped {
+    background-color: rgb(186, 245, 186);
+}
+
+#idoszak {
+    background-color: lightgrey;
+}
